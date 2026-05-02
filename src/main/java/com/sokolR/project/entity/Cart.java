@@ -1,4 +1,4 @@
 package com.sokolR.project.entity;
 
-public class Cart {
+public record Cart(long id, String name) {
 }
